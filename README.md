@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+# 🚀 LLM Arena
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LLM Arena is a full-stack AI model comparison platform built using React.js and Spring Boot. Users can enter a question and compare responses from different AI models through a simple interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Compare AI model responses
+* React frontend
+* Spring Boot backend
+* REST API communication
+* JSON response handling
+* Git and GitHub integration
+* Extensible architecture for OpenAI, Gemini, and DeepSeek APIs
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React.js
+* JavaScript
+* HTML
+* CSS
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Spring Boot
+* Java
+* Maven
 
-### `npm run build`
+### Tools
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Git
+* GitHub
+* IntelliJ IDEA
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend
 
-### `npm run eject`
+* React Application
+* User Interface
+* API Calls
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Backend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Spring Boot Application
+* REST Controllers
+* Service Layer
+* AI Response Model
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Run
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Backend
 
-## Learn More
+Navigate to the Spring Boot project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd llmarena
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run:
 
-### Code Splitting
+```bash
+mvn spring-boot:run
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend starts on:
 
-### Analyzing the Bundle Size
+```text
+http://localhost:8080
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Frontend
 
-### Making a Progressive Web App
+Navigate to the React project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+cd llm-arena
+```
 
-### Advanced Configuration
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+```
 
-### Deployment
+Start React:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm start
+```
 
-### `npm run build` fails to minify
+Frontend starts on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+http://localhost:3000
+```
+
+## Screenshots
+
+### Home Screen
+
+Add image:
+
+```text
+screenshots/home.png
+```
+
+### Question Input
+
+Add image:
+
+```text
+screenshots/question.png
+```
+
+### Comparison Result
+
+Add image:
+
+```text
+screenshots/result.png
+```
+
+## Future Enhancements
+
+* OpenAI Integration
+* Gemini Integration
+* DeepSeek Integration
+* Response History
+* Winner Selection
+* Dark Mode
+* User Authentication
+
+## Author
+
+Prasannalaxmi Vadla
