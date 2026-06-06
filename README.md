@@ -96,32 +96,6 @@ Frontend starts on:
 http://localhost:3000
 ```
 
-## Screenshots
-
-### Home Screen
-
-Add image:
-
-```text
-screenshots/home.png
-```
-
-### Question Input
-
-Add image:
-
-```text
-screenshots/question.png
-```
-
-### Comparison Result
-
-Add image:
-
-```text
-screenshots/result.png
-```
-
 ## Future Enhancements
 
 * OpenAI Integration
